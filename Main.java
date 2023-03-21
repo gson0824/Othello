@@ -16,7 +16,7 @@ public class Main {
 		System.out.println("3. An agent that uses H-MINIMAX (Only for 8x8 board)");
 		System.out.println("Your choice? ");
 		int type = scnr.nextInt();
-		System.out.print("Do you want to play DARK (X) or LIGHT (O)? ");
+		System.out.print("Do you want to play DARK (x) or LIGHT (o)? ");
 		String side = scnr.next();
 		System.out.println();
 		Reversi reversi = new Reversi();
